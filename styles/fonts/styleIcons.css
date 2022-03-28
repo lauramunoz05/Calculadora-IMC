@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?7f6hng');
+  src:  url('icomoon.eot?7f6hng#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?7f6hng') format('truetype'),
+    url('icomoon.woff?7f6hng') format('woff'),
+    url('icomoon.svg?7f6hng#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus:before {
+  content: "\ea0b";
+  
+}
+
+.icon-linea:before {
+  content: "\e903";
+}
+.icon-Obeso .path1:before {
+  content: "\e904";
+  color: rgb(249, 63, 47);
+}
+.icon-Obeso .path2:before {
+  content: "\e905";
+  margin-left: -0.7861328125em;
+  color: rgb(255, 255, 255);
+}
+.icon-Obeso .path3:before {
+  content: "\e906";
+  margin-left: -0.7861328125em;
+  color: rgb(249, 63, 47);
+}
+.icon-ExcesoPeso .path1:before {
+  content: "\e907";
+  color: rgb(251, 186, 0);
+}
+.icon-ExcesoPeso .path2:before {
+  content: "\e908";
+  margin-left: -0.744140625em;
+  color: rgb(255, 255, 255);
+}
+.icon-ExcesoPeso .path3:before {
+  content: "\e909";
+  margin-left: -0.744140625em;
+  color: rgb(251, 186, 0);
+}
+.icon-Saludable .path1:before {
+  content: "\e90a";
+  color: rgb(64, 188, 102);
+}
+.icon-Saludable .path2:before {
+  content: "\e90b";
+  margin-left: -0.7685546875em;
+  color: rgb(255, 255, 255);
+}
+.icon-Saludable .path3:before {
+  content: "\e90c";
+  margin-left: -0.7685546875em;
+  color: rgb(64, 188, 102);
+}
+.icon-bajoPeso .path1:before {
+  content: "\e900";
+  color: rgb(28, 128, 216);
+}
+.icon-bajoPeso .path2:before {
+  content: "\e901";
+  margin-left: -0.984375em;
+  color: rgb(255, 255, 255);
+}
+.icon-bajoPeso .path3:before {
+  content: "\e902";
+  margin-left: -0.984375em;
+  color: rgb(28, 128, 216);
+}
+.icon-man:before {
+  content: "\e9dc";
+}
+.icon-woman:before {
+  content: "\e9dd";
+}

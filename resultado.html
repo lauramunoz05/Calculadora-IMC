@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts/styleIcons.css">
+    <link rel="stylesheet" href="./styles/resultado.css">
+    <title>Resultado IMC</title>
+</head>
+
+<body>
+    <fieldset id="principalResultado">
+        <label id="resultadoTexto">Resultado</label><br>
+        <input type="text" id="resultado" disabled><br>
+        
+        <div class="slidecontaine">
+            <input type="range" id="rango" min="18" max="30" autocomplete="off" step="1" disabled>
+        </div>
+
+        <img src="./imagenes/linea.png" alt="linea" id="linea">
+        <input type="text" id="pesoIdeal" disabled>
+
+        <fieldset id="tipoPesos">
+            <span class="icon-bajoPeso"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span> 
+            <label id="bajoPesoTexto" class="pesoText">Bajo peso</label><br>
+    
+            <span class="icon-Saludable"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span> 
+            <label id="saludableTexto" class="pesoText">Saludable</label><br>
+    
+            <span class="icon-ExcesoPeso"><span class="path1"></span><span class="path2"></span><span class="path3" ></span></span> 
+            <label id="ExcesoPesoTexto" class="pesoText">Exceso de peso</label><br>
+    
+            <span class="icon-Obeso"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span> 
+            <label id="obesoTexto" class="pesoText">Obeso</label><br>
+        </fieldset>
+    </fieldset>
+    <script src="./script/resultado.js"></script>
+</body>
+
+</html>
